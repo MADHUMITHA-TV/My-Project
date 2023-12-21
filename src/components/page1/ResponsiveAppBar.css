@@ -1,0 +1,57 @@
+.body{
+  background-color: rgb(229, 239, 243);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+.btn button{
+    color: aliceblue;
+    border-color: aliceblue;
+    margin-right: 10px;
+    
+    padding: 5px;
+}
+
+.btn1 a{
+  color: inherit; /* Inherit the color from the parent (.login-button) */
+  text-decoration: none;
+  font-size: small;
+}
+.card1 {
+  display: inline-block;
+  padding:30px; 
+  background-color:rgb(168, 207, 220);
+  border-radius: 10px;
+}
+.heading1{
+  text-align: center;
+  font-size: 50px;
+  font-family:"cursive";
+  font-weight: bold;
+  border-radius: 5px;
+}
+.back{   
+    background-color:rgb(168, 207, 220);
+}
+.back img{
+    float: right;
+    margin-top: -3%;
+    margin-right: 5%;
+    /* margin: 10px 10px 10px 10px; */
+    height: 70%;
+    width:40% ;
+}
+
+.back h1 {
+      justify-content: center;
+      margin-left: 150px;
+      font-size: 35px;
+}
+.back p{
+    /* text-align: center; */
+    margin-left: 150px;
+    font-size: 20px;
+}
